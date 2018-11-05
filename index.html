@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Colorado Team Trivia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <script src="assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <h1>Colorado Team Trivia</h1>
+    </div>
+
+
+    <form id=trivia name="trivia">
+
+        <p>What is the name of Colorado's NFL Team?</p>
+        <input type="radio" id="multiChoice" name="question1" value="Donkies"> Donkies<br>
+        <input type="radio" id="multiChoice" name="question1" value="Rockies"> Rockies<br>
+        <input type="radio" id="multiChoice" name="question1" value="Nuggets"> Nuggets<br>
+        <input type="radio" id="multiChoice" name="question1" value="Broncos"> Broncos<br>
+
+        <p>What is the name of Colorado's MLB Team?</p>
+        <input type="radio" id="multiChoice" name="question2" value="Dinger"> Dinger<br>
+        <input type="radio" id="multiChoice" name="question2" value="Rocks"> Rocks<br>
+        <input type="radio" id="multiChoice" name="question2" value="Nuggets"> Nuggets<br>
+        <input type="radio" id="multiChoice" name="question2" value="Rockies"> Rockies<br>
+
+        <p>What is the name of Colorado's NBA Team?</p>
+        <input type="radio" id="multiChoice" name="question3" value="Rocky"> Rocky<br>
+        <input type="radio" id="multiChoice" name="question3" value="Rockies"> Rockies<br>
+        <input type="radio" id="multiChoice" name="question3" value="Miners"> Miners<br>
+        <input type="radio" id="multiChoice" name="question3" value="Nuggets"> Nuggets<br>
+
+        <p>What is the name of Colorado's NHL Team?</p>
+        <input type="radio" id="multiChoice" name="question4" value="Pioneers"> Pioneers<br>
+        <input type="radio" id="multiChoice" name="question4" value="Rockies"> Rockies<br>
+        <input type="radio" id="multiChoice" name="question4" value="Mammoth"> Mammoth<br>
+        <input type="radio" id="multiChoice" name="question4" value="Avalanche"> Avalanche<br>
+
+
+        <input type="button" id="button" value="Done" onclick="check();">
+
+
+    </form>
+
+    <div id="submit_clicked">
+        <p id="message"></p>
+        <p id="number_correct"></p>
+    </div>
+
+
+    <!-- <p id="timer">_______</p> -->
+
+    <!-- <body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3"> Colorado Team Trivia Game </h1>
+            </div>
+        </div>
+        <div id="time-left">
+        </div>
+        <div id="wrapper">
+
+            <div id="display"> 00: 10 </div>
+            <div id="buttons">
+                <button id="start"> Start </button> <button id="stop"> Stop </button> <button id="reset">
+                    Reset </button> </div>
+
+            <div id="wins">
+                <h3> WINS </h3>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                Name the Mascot </div>
+            <form>
+                <div class="form-group">
+                    <label for="questionOne"> What is the
+                        name of Colorado's NFL Team?</label>
+                    <input type="input" class="form-control" id="answer" placeholder="Answer">
+                </div>
+                <div class="form-group">
+                    <label for="questionTwo">
+                        What is the name of Colorado's MLB Team?</label>
+                    <input type="input" class="form-control" id="answer" placeholder="Answer">
+                </div>
+                <div class="form-group">
+                    <label for="questionThree">
+                        What is the name of Colorado's NBA
+                        Team?</label>
+                    <input type="input" class="form-control" id="answer" placeholder="Answer">
+                </div>
+                <div class="form-group">
+                    <label for="questionFour"> What is the name of Colorado's NHL Team?
+                    </label>
+                    <input type="input" class="form-control" id="answer" placeholder="Answer">
+                </div> <button type="submit" id="submitBtn" class="btn btn-primary">
+                    Submit
+                </button> <button type="" id="clearBtn" class="btn btn-primary">
+                    Clear
+                    Results
+                </button>
+        </div>
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script> -->
+
+</body>
+
+</html>
